@@ -1,0 +1,5 @@
+{
+  "name": "HAWKEYE",
+  "description": "Next-generation anomaly detection system using Gemini 3.0 Flash for lightning-fast, accurate analysis of tabular data and video.",
+  "requestFramePermissions": []
+}

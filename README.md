@@ -1,50 +1,20 @@
-Hawkeye: AI-Powered Video Anomaly Detection
-Hawkeye is a multimodal surveillance system developed as a group project to automate the detection of irregular activities in video feeds. By leveraging Gemini 3 Flash, the system moves beyond simple motion detection to provide intelligent, natural language analysis of incidents like road accidents and security breaches.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-🚀 Key Features
-Multimodal Video Analysis: Utilizes the Gemini 3 Flash API to process video frames and understand complex scenes.
+# Run and deploy your AI Studio app
 
-Structured Incident Reporting: Generates automated reports in JSON format, capturing event descriptions, timestamps, and severity levels.
+This contains everything you need to run your app locally.
 
-User-Friendly Dashboard: A responsive web interface built with React and TypeScript for seamless video uploads and result visualization.
+View your app in AI Studio: https://ai.studio/apps/drive/1jUtvyUebnh2d7z5DkJQsJAKlurg2j2VX
 
-Real-time Potential: Designed with an architecture capable of scaling to live webcam or CCTV stream analysis.
+## Run Locally
 
-🛠️ Tech Stack
-Frontend: React.js, TypeScript, Tailwind CSS.
-
-AI Engine: Google Gemini 3 Flash (via Google AI Studio).
-
-Version Control: Git & GitHub for team collaboration.
-
-📂 Project Structure
-Plaintext
-├── src/
-│   ├── components/       # UI for video uploads and result display
-│   ├── services/         # Gemini 3 Flash API integration logic
-│   ├── hooks/            # Logic for frame extraction and processing
-│   └── types/            # TypeScript interfaces for structured AI responses
-├── public/               # Static assets
-└── .env.example          # Environment variable template for team members
-⚙️ Setup for Contributors
-Clone the Repo: git clone https://github.com/Steve087/hawkeye.git
-
-Install Deps: npm install
-
-API Key: Create a .env file based on .env.example and add your VITE_GEMINI_API_KEY.
-
-Launch: npm run dev
-
-👥 Contributors
-Rohith Mungath
-Steve Jose
-Christo Pius
-Aleetta Mariya Sebastian
+**Prerequisites:**  Node.js
 
 
-
-
-
-[Team Member Name] – [Role, e.g., Backend Services & API Management]
-
-Academic Context: This project was developed by students from CEC (KTU).
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
